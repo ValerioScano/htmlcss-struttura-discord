@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {      
+    background-color: aqua;
+}
+
+/* upper header */
+
+.boxes-header {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+}
+    
+.sub-boxes-header {
+    border-style: dashed;
+    background-color: orange;
+    padding: 5px 10px;
+}
+
+.logo {
+    width: 20%;
+    text-align: start;
+}
+
+.link {
+    width: 40%;
+    text-align: center;
+}
+
+.login {
+    width: 20%;
+    text-align: end;
+}
+
