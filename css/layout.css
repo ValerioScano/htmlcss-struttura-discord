@@ -6,6 +6,7 @@
 
 header {      
     background-color: aqua;
+    padding-bottom: 5px;
 }
 
 /* upper header */
@@ -40,3 +41,26 @@ header {
     text-align: end;
 }
 
+/* fine upper header - inizio lower header*/
+
+.box-page {
+    height: 200px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container {    
+    min-width: 60%;
+    min-height: 80%;
+    background-color: rgb(233, 114, 134);
+}
+
+
+/* fine lower header - inizio page 1 */
+
+.background-white {
+    background-color: white
+    ;
+}
