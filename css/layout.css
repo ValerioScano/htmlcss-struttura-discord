@@ -9,21 +9,31 @@ header {
     padding-bottom: 5px;
 }
 
-/* upper header */
+main {
+    padding-bottom: 5px;
+    background-color: white;
+}
 
-.boxes-header {
-    max-width: 1000px;
-    margin: 0 auto;
+.flexbox {
     display: flex;  
     justify-content: center;
     align-items: center;
     min-height: 50px;
+    margin: 0 auto;
 }
+
+
+.style-dashed {
+    border-style: dashed;
+    border-width: 2px;
+}
+
+/* upper header */
     
 .sub-boxes-header {
-    border-style: dashed;
     background-color: orange;
     padding: 5px 10px;
+    max-width: 1000px;
 }
 
 .logo {
@@ -43,24 +53,103 @@ header {
 
 /* fine upper header - inizio lower header*/
 
-.box-page {
+.lower-header {
     height: 200px;
     background-color: blue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.flex-container {    
-    min-width: 60%;
+.sub-box-lower-header {    
+    min-width: 50%;
     min-height: 80%;
     background-color: rgb(233, 114, 134);
 }
 
 
-/* fine lower header - inizio page 1 */
+/* fine lower header - inizio pages*/
 
-.background-white {
-    background-color: white
-    ;
+
+.page-white {
+    background-color: white;
+    height: 200px;
+}
+
+.page-grey {
+    background-color: grey;
+    height: 200px;
+}
+
+.big-page {
+    height: 400px;
+}
+
+.page-black {
+    background-color: black;
+    height: 200px;
+}
+
+/* fine pages - inizio boxes */
+
+.cerulean-box {
+    min-width: 50%;
+    min-height: 80%;
+    background-color: cornflowerblue;
+}
+
+.pink-box {
+    min-width: 30%;
+    min-height: 80%;
+    background-color: pink;
+}
+
+.big-green-box {
+    min-height: 80%;
+    min-width: 80%;
+    background-color: green;
+}
+
+/*  fine boxes - inizio last page */
+
+.last-flexbox {
+    justify-content: center;
+    height: 200px;
+}
+
+.meat-box {
+    background-color: rgb(195, 4, 80);
+    min-height: 80%;
+    min-width: 26%;
+}
+
+.aqua-box {
+    min-width: 13%;
+    min-height: 80%;
+    background-color: aqua;
+    border-style: dashed;
+    border-color: white;
+    border-width: 2px;
+}
+
+/* footer */
+
+footer {
+    padding-bottom: 5px;
+}
+
+#footer-container {
+    align-items: flex-end;
+    background-color: black;
+    height: 150px;
+}
+
+.footer-box {
+    background-color: aquamarine;
+    width: 80%;
+    min-height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    background-color: pink;
 }
