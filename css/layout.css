@@ -9,31 +9,40 @@ header {
     padding-bottom: 5px;
 }
 
-main {
-    padding-bottom: 5px;
-    background-color: white;
+main, footer {
+    padding-bottom: 2px;
 }
 
 .flexbox {
-    display: flex;  
+    display: flex;
+}
+
+.standard-flex {
     justify-content: center;
     align-items: center;
+    padding: 1em 2em;
+}
+
+.container {
+    width: 80%;
     min-height: 50px;
     margin: 0 auto;
 }
-
 
 .style-dashed {
     border-style: dashed;
     border-width: 2px;
 }
 
+.show-empty {
+    min-height: 200px;
+}
+
 /* upper header */
-    
+
 .sub-boxes-header {
     background-color: orange;
-    padding: 5px 10px;
-    max-width: 1000px;
+    padding: 5px 10px; 
 }
 
 .logo {
@@ -53,14 +62,12 @@ main {
 
 /* fine upper header - inizio lower header*/
 
-.lower-header {
-    height: 200px;
+.bg-blue {
     background-color: blue;
 }
 
 .sub-box-lower-header {    
-    min-width: 50%;
-    min-height: 80%;
+    width: 50%;
     background-color: rgb(233, 114, 134);
 }
 
@@ -68,88 +75,66 @@ main {
 /* fine lower header - inizio pages*/
 
 
-.page-white {
-    background-color: white;
-    height: 200px;
-}
-
-.page-grey {
+.bg-grey {
     background-color: grey;
-    height: 200px;
 }
 
-.big-page {
-    height: 400px;
-}
-
-.page-black {
+.bg-black {
     background-color: black;
-    height: 200px;
 }
 
 /* fine pages - inizio boxes */
 
 .cerulean-box {
-    min-width: 50%;
-    min-height: 80%;
+    width: 50%;
     background-color: cornflowerblue;
 }
 
 .pink-box {
-    min-width: 30%;
-    min-height: 80%;
+    width: 30%;
     background-color: pink;
 }
 
 .big-green-box {
-    min-height: 80%;
-    min-width: 80%;
+    width: 80%;
     background-color: green;
 }
 
 /*  fine boxes - inizio last page */
 
-.last-flexbox {
-    justify-content: center;
-    height: 200px;
-}
-
 .meat-box {
     background-color: rgb(195, 4, 80);
-    min-height: 80%;
-    min-width: 26%;
+    min-width: 20%;
 }
 
 .aqua-box {
-    min-width: 13%;
-    min-height: 80%;
     background-color: aqua;
     border-style: dashed;
     border-color: white;
     border-width: 2px;
+    flex-grow: 1;
+    max-width: 15%;
 }
 
-/* footer */
+/* footer  */
 
-footer {
-    padding-bottom: 5px;
-}
-
-#footer-container {
+.lowered-centered {
     align-items: flex-end;
-    background-color: black;
-    height: 150px;
+    justify-content: center;
+    padding: 1em 2em 0;
 }
 
-.footer-box {
+.aquamarine-box {
     background-color: aquamarine;
     width: 80%;
-    min-height: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 button {
     background-color: pink;
+}
+
+.flexbox-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
